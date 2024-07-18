@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 namespace ConsoleApp
 {
     internal class BookRepository : IBookRepository
-    {
+    {  
         private List<Book> Books { get; set; }
+     
         internal BookRepository()
         {
             Books = new List<Book>();

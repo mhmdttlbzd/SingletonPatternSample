@@ -1,15 +1,17 @@
-﻿using System;
+﻿
+using ConsoleApp2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.Repositories
+namespace ConsoleApp
 {
     internal class BookRepository : IBookRepository
     {
         private List<Book> Books { get; set; }
-        public BookRepository()
+        internal BookRepository()
         {
             Books = new List<Book>();
         }
